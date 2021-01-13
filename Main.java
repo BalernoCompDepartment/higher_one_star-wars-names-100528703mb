@@ -12,9 +12,9 @@ class Main {
     String city = input.nextLine();
 
     String firstName1 =  surname.substring(0,3);
-    String firstName2 =  forename.substring(0,2);
+    String firstName2 =  forename.substring(0,2).toLowerCase();
     String lastName1 =  maidenName.substring(0,3);
-    String lastName2 =  city.substring(0,2);
+    String lastName2 =  city.substring(0,2).toLowerCase();
 
 
     System.out.println("Your star wars name is " + firstName1 + firstName2 + " " + lastName1 + lastName2);
