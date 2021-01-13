@@ -11,14 +11,13 @@ class Main {
     String maidenName = input.nextLine();
     String city = input.nextLine();
 
-    String a =  forename.substring(0,3).toLowerCase();
-    String b =  surname.substring(0,2).toLowerCase();
-    String c =  maidenName.substring(0,3).toLowerCase();
-    String d =  city.substring(0,2).toLowerCase();
+    String firstName1 =  surname.substring(0,3);
+    String firstName2 =  forename.substring(0,2);
+    String lastName1 =  maidenName.substring(0,3);
+    String lastName2 =  city.substring(0,2);
 
-    String starWarsName = a + b + c + d;
 
-    System.out.println("Your star wars name is " + starWarsName);
+    System.out.println("Your star wars name is " + firstName1 + firstName2 + " " + lastName1 + lastName2);
 
 
   
